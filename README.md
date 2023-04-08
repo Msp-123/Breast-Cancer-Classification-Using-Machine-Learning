@@ -14,11 +14,11 @@ Dataset contains 32 features that are computed from a digitized image of a fine 
 ## Data Cleaning
 After collecting the data, I needed to clean it up so that it was usable for our model. I made the following changes to the variables:
 
-Removed unnecessary columns
-Encoded categorical variables
-Removed features with multicollinearity
-Extracted features and target
-Standardized the dataset
+- Removed unnecessary columns
+- Encoded categorical variables
+- Removed features with multicollinearity
+- Extracted features and target
+- Standardized the dataset
 
 ## Model Building
 First I split the data into train and tests sets with a test size of 20%.
