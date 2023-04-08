@@ -20,7 +20,7 @@ Removed features with multicollinearity
 Extracted features and target
 Standardized the dataset
 
-##Model Building
+## Model Building
 First I split the data into train and tests sets with a test size of 20%.
 
 I tried two different models and evaluated them using Accuracy score. Fine tuned model with best accuracy for better machine learning process.
@@ -29,3 +29,13 @@ Machine Learning models:
 
 Logistic Regression – chose this model because our problem is binary classification
 Random Forest – with default parameters
+
+
+## Model performance
+The Logistic regression model outperformed the Random forest model on the test and validation sets.
+
+Random Forest : Accuracy = 98.24 %
+Logistic Regression: Accuracy = 95.61 %
+Chose Logistic regression as final model this problem and fine tuned its hyperparameters.
+
+Tuned Logistic regression : Accuracy = 98.24 %, Precision = 100 %, Recall = 94.47 %, F1 Score = 97.29 %
