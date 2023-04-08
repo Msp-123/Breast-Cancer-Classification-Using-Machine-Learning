@@ -8,4 +8,6 @@
 ## Dataset Information
 Dataset contains 32 features that are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
 
+![image](https://user-images.githubusercontent.com/83719212/230721730-5ada8776-0fd0-4e33-93ee-43ad2c6f13f6.png)
+
 
