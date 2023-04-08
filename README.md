@@ -20,6 +20,10 @@ After collecting the data, I needed to clean it up so that it was usable for our
 - Extracted features and target
 - Standardized the dataset
 
+![image](https://user-images.githubusercontent.com/83719212/230721937-86c25ae6-e89d-4638-b246-4c2cf1edd441.png)
+
+
+
 ## Model Building
 First I split the data into train and tests sets with a test size of 20%.
 
@@ -27,8 +31,8 @@ I tried two different models and evaluated them using Accuracy score. Fine tuned
 
 Machine Learning models:
 
-Logistic Regression – chose this model because our problem is binary classification
-Random Forest – with default parameters
+- Logistic Regression – chose this model because our problem is binary classification
+- Random Forest – with default parameters
 
 
 ## Model performance
@@ -39,3 +43,8 @@ Logistic Regression: Accuracy = 95.61 %
 Chose Logistic regression as final model this problem and fine tuned its hyperparameters.
 
 Tuned Logistic regression : Accuracy = 98.24 %, Precision = 100 %, Recall = 94.47 %, F1 Score = 97.29 %
+
+![image](https://user-images.githubusercontent.com/83719212/230721981-5f8c3975-b55c-474b-93f8-958cb6717549.png)
+
+- The tuned model has same accuracy as default logistic regression model. 
+- Logistic regression does not really have any critical hyperparameters to tune.
